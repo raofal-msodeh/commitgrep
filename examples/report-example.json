@@ -1,0 +1,20 @@
+{
+  "tool": "commitgrep",
+  "version": "1.0.0",
+  "repoRoot": "/home/user/project",
+  "filters": { "pattern": "breaking", "max": 10 },
+  "matchCount": 1,
+  "matches": [
+    {
+      "hash": "4a7b2c1d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+      "shortHash": "4a7b2c1",
+      "authorName": "Jane Doe",
+      "authorEmail": "jane@example.com",
+      "authorDate": "2026-03-12T09:14:02Z",
+      "subject": "feat(engine): add pickaxe search",
+      "insertions": 142,
+      "deletions": 37,
+      "filesChanged": 3
+    }
+  ]
+}
